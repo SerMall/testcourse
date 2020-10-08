@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="cancel_course"
+             instance="Test\CourseSystem\Cron\CancelCourse"
+             method="execute">
+            <schedule>0 01 * * *</schedule>
+        </job>
+        <job name="check_deadline"
+             instance="Test\CourseSystem\Cron\CheckDeadline"
+             method="execute">
+            <schedule>12 00 * * *</schedule>
+        </job>
+    </group>
+</config>

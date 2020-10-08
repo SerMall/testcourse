@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="test_course" resource="default" engine="innodb" comment="Test Course">
+        <column xsi:type="smallint" name="id" padding="6" unsigned="false" nullable="false" identity="true"
+                comment="Entity Id"/>
+        <column xsi:type="smallint" name="id_course" nullable="false" comment="ID Course"/>
+        <column xsi:type="smallint" name="id_customer" nullable="false" comment="ID Customer"/>
+        <column xsi:type="timestamp" name="deadline" on_update="false" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="Deadline Time"/>
+        <column xsi:type="timestamp" name="end_time" on_update="false" nullable="false" default="CURRENT_TIMESTAMP"
+                comment="End Course Time"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+    </table>
+</schema>
