@@ -41,39 +41,6 @@ class DeleteAttribute implements DataPatchInterface, PatchRevertableInterface
         $catalogSetup->removeAttribute(
             \Magento\Catalog\Model\Product::ENTITY,
             'course_location');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'size');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'sub_sku');
-//
-//
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'cat_gender');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'cat_season');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'cat_species');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'cat_type');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'season_collection');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'material_outside');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'material_inside');
-//        $catalogSetup->removeAttribute(
-//            \Magento\Catalog\Model\Product::ENTITY,
-//            'heel_height');
-
     }
 
     /**

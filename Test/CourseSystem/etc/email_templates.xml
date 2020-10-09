@@ -1,0 +1,17 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="cancel_course"
+              label="Cancel Course"
+              file="cancel_course.html"
+              type="html"
+              module="Test_CourseSystem"
+              area="frontend"
+    />
+    <template id="deadline_pay"
+              label="Deadline Pay"
+              file="deadline_pay.html"
+              type="html"
+              module="Test_CourseSystem"
+              area="frontend"
+    />
+
+</config>
